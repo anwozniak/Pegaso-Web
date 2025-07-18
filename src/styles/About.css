@@ -1,0 +1,17 @@
+
+.custom-card {
+  color: #f8f9fa;
+  border: none;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.7);
+}
+
+
+.custom-card .card-text {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+
+img.img-fluid.rounded.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.7);
+}

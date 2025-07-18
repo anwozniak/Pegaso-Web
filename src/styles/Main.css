@@ -1,0 +1,21 @@
+.custom-card {
+  background-color: #000 !important;
+  color: #f8f9fa !important;
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+  transition: transform 0.2s ease;
+}
+
+.custom-card:hover {
+  transform: scale(1.01);
+}
+
+.custom-card .card-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.custom-card .card-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}

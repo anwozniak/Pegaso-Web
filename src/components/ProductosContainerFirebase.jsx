@@ -13,7 +13,9 @@ function ProductosContainerFirebase() {
     fetch("https://68336f12464b499636ff711f.mockapi.io/productos")
       .then((respuesta) => respuesta.json())
       .then((datos) => {
-        setProductos(datos);
+        // Filtra los productos con id >= 4
+        const productosFiltrados = datos.filter((producto) => Number(producto.id) >= 4);
+        setProductos(productosFiltrados);
         setCargando(false);
       })
       .catch((error) => {
@@ -54,5 +56,3 @@ function ProductosContainerFirebase() {
 }
 
 export default ProductosContainerFirebase;
-
-
